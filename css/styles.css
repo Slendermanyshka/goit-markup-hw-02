@@ -2,6 +2,7 @@
   background-color: #ececec;
   display: inline-flex;
   align-items: center;
+  padding-inline: 215px;
   width: 1600px;
   height: 80px;
 }
@@ -11,7 +12,6 @@
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
-  margin-left: 215px;
   color: #ffffff;
 }
 
@@ -24,9 +24,8 @@
 }
 
 .body {
-  background-color: #e5e5e5;
-  font-family: "Roboto", BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu,
-    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #ffffff;
+  font-family: "Roboto", BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .menu-nav a {
@@ -48,7 +47,7 @@
 .menu-nav {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14;
+  font-size: 14px;
   margin-left: 93px;
   color: #000000;
 }
@@ -59,7 +58,7 @@
 .contacts a {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14;
+  font-size: 14px;
   color: #757575;
   margin-left: 50px;
 }
@@ -67,7 +66,7 @@
   color: #2196f3;
 }
 .contacts a:focus {
-  color: #2196f3;
+  color: #2196f3; 
 }
 
 
@@ -163,8 +162,11 @@ color: #212121;
 .selection-porfolio button {
   background-color: #f5f3fa;
   color: #212121;
-  height: 38px;
   padding-inline: 22px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  font-size: 16px;
 }
 .selection-porfolio button:hover {
   background-color: #2196f3;
@@ -181,24 +183,26 @@ color: #212121;
 .selection-menu li {
   text-decoration: none;
   list-style-type: none;
-  background-color: #ffffff;
+  background-color: #ffffff; 
   margin-block: 30px;
   max-width: 370px;
 }
 .selection-menu h3 {
   font-weight: 700;
   font-size: 18px;
-  line-height: 200%;
+  line-height: 36px;
+  letter-spacing: 0.06em;
 }
 .selection-menu p {
   font-weight: 400;
   font-size: 16px;
-  line-height: 187%;
+  line-height: 30px;
+  letter-spacing: 0.03em;
   color: #757575;
 }
 
 .footer {
-  padding-top: 60px;
+  padding-inline: 215px;
   background-color: #2f303a;
   height: 252px;
   width: 1600px;
@@ -217,15 +221,22 @@ color: #212121;
   color: rgba(255, 255, 255, 1);
 }
 
-address {
-  margin-top: 20px;
-  margin-bottom: 60px;
+.address {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   letter-spacing: 0.02em;
-  margin-bottom: 9px;
-  margin-left: 215px;
   line-height: 200%;
+}
+.address li{
+  list-style-type: none;
+  text-decoration: none;
+}
+.address span{
+  color:#ffffff ;
+  }
+
+.address p{
+color: #ffffff;
 }
